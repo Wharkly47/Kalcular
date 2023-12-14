@@ -1,0 +1,75 @@
+/* style.css */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.calculator {
+  text-align: center;
+  background-color: #333;
+  padding: 44px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+  width: 80%;
+  max-width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px #192f6a;
+}
+
+/* Styling for number buttons */
+.number {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.number:hover {
+  background-color: #2980b9;
+}
+
+/* Styling for operation buttons */
+.operation {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.operation:hover {
+  background-color: #27ae60;
+}
+
+/* Styling for clear button */
+.clear {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.clear:hover {
+  background-color: #c0392b;
+}
