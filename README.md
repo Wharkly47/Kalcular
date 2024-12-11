@@ -36,7 +36,7 @@ Les contributions sont les bienvenues! Si vous souhaitez contribuer à ce projet
 3. Commit vos changements (`git commit -m 'Ajouter une nouvelle fonctionnalité'`).
 4. Push vers la branche (`git push origin fonctionnalite/ma-fonctionnalite`).
 5. Créer une nouvelle Pull Request.
-
+Visitez [Kalcular](https://nearoofly.github.io/Kalcular/) pour découvrir l'application en ligne.
 ## Licence
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
